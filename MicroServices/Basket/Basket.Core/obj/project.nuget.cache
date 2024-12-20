@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "E15jEw2LUWsD3XSeHyh+6FMGnF4+jpewSynp4nx9G2GyAdjp8UXxU3fv1A92y+HpqauaT6BNRkuhv42Ag1xR2w==",
+  "success": true,
+  "projectFilePath": "C:\\Nishit\\Asp net core Microservice\\eShopModernization\\MicroServices\\Basket\\Basket.Core\\Basket.Core.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://flardartifact01/artifactory/api/nuget/nuget-qa'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
