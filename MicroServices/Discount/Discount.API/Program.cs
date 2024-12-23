@@ -1,0 +1,48 @@
+using Discount.API.Services;
+using Discount.Application.Handlers;
+using Discount.Core.Repositories;
+using Discount.Infrastructure.Extensions;
+using System.Reflection;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+//Register AutoMapper
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
+//Register Mediatr
+var assemblies = new Assembly[]
+{
+    Assembly.GetExecutingAssembly(),
+    typeof(CreateDiscountCommandHandler).Assembly
+};
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
+builder.Services.AddScoped<IDiscountRepository, IDiscountRepository>();
+builder.Services.AddGrpc();
+
+var app = builder.Build();
+
+//Migrate Database
+app.MigrateDatabase<Program>();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
+app.UseAuthorization();
+
+app.UseRouting();
+
+app.UseEndpoints(endPoints => 
+{
+    endPoints.MapGrpcService<DiscountService>();
+    endPoints.MapGet("/", async context =>
+    {
+        await context.Response.WriteAsync("Communication with grpc endpoints must be made through a grpc client"); 
+    });
+} );
+
+app.Run();
