@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TXWzFhznCWTGaYyYTWyJ4UsRY8nirPFOd8Vn+ycXJkIwQMsABA/mXEOD1ruzl7l21bduKpjwUVLL8UG9QBMIHA==",
+  "dgSpecHash": "A7pqnwQZ+XkZVwpyiUxnPYP23AGO6nJP7YyCbRO9uKw3jnmNvIPWts3xHcJbICEs+a033VtHPcJS6Qdvcfwmcw==",
   "success": true,
   "projectFilePath": "C:\\Nishit\\Asp net core Microservice\\eShopModernization\\MicroServices\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [

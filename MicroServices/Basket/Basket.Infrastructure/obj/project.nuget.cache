@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m/tJVf89vrdJv6GhskopXSJtK7DTSx9jJQGQnLWpIssF2WADNOXFq3pmGTPBZMXBt8o8a7V2x1Lw3PXWZe1MuQ==",
+  "dgSpecHash": "1ZUdIHFFfqYNQutvWg2ef/K9HXNq6cTX9CMoCE7znNkgp5ClqYZCXC2OjXHExI5G4Vh23HdDVz0icCwHQ+F2ng==",
   "success": true,
   "projectFilePath": "C:\\Nishit\\Asp net core Microservice\\eShopModernization\\MicroServices\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
   "expectedPackageFiles": [

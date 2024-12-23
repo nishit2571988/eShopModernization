@@ -13,3 +13,5 @@ C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Bask
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Application\obj\Debug\net8.0\refint\Basket.Application.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.pdb
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Application\obj\Debug\net8.0\ref\Basket.Application.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Application\bin\Debug\net8.0\EventBus.Messages.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Application\bin\Debug\net8.0\EventBus.Messages.pdb

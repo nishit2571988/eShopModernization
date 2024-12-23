@@ -4,6 +4,7 @@ using Basket.Application.Handlers;
 using Basket.Core.Repositories;
 using Basket.Infrastructure.Repositories;
 using Discount.Grpc.Protos;
+using MassTransit;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -14,7 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 //Add API Versioning
-builder.Services.AddApiVersioning(options => {
+builder.Services.AddApiVersioning(options =>
+{
     options.ReportApiVersions = true;
     options.AssumeDefaultVersionWhenUnspecified = true;
     options.DefaultApiVersion = new ApiVersion(1, 0);
@@ -36,15 +38,27 @@ var assemblies = new Assembly[]
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
 //Redis
-builder.Services.AddStackExchangeRedisCache(options => {
+builder.Services.AddStackExchangeRedisCache(options =>
+{
     options.Configuration = builder.Configuration.GetValue<string>("CacheSettings:ConnectionString");
 });
 
 //Application Services
-builder.Services.AddScoped<IBasketRepository,BasketRepository>();
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddScoped<DiscountGrpcService>();
 builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
     (cfg => cfg.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]));
+
+//Mass Transit
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ct, cfg) =>
+    {
+        cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+    });
+});
+
+builder.Services.AddMassTransitHostedService();
 
 var app = builder.Build();
 

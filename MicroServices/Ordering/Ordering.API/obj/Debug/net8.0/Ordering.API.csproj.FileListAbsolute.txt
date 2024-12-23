@@ -100,3 +100,15 @@ C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Or
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Ordering.Core.pdb
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Polly.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Polly.Core.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Automatonymous.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\GreenPipes.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.AspNetCoreIntegration.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\NewId.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\EventBus.Messages.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.API\bin\Debug\net8.0\EventBus.Messages.pdb

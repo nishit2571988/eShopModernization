@@ -58,3 +58,16 @@ C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Bask
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Client.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\MassTransit.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\MassTransit.AspNetCoreIntegration.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Automatonymous.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\GreenPipes.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\NewId.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\EventBus.Messages.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.API\bin\Debug\net8.0\EventBus.Messages.pdb

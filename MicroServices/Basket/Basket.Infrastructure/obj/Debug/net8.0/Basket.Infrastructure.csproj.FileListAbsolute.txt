@@ -15,3 +15,5 @@ C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Bask
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Infrastructure\obj\Debug\net8.0\refint\Basket.Infrastructure.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.pdb
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Infrastructure\obj\Debug\net8.0\ref\Basket.Infrastructure.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Infrastructure\bin\Debug\net8.0\EventBus.Messages.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Basket\Basket.Infrastructure\bin\Debug\net8.0\EventBus.Messages.pdb

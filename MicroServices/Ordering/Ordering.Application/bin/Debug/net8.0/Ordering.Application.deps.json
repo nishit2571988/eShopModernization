@@ -9,6 +9,7 @@
       "Ordering.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "EventBus.Messages": "1.0.0",
           "FluentValidation": "11.11.0",
           "FluentValidation.DependencyInjectionExtensions": "11.11.0",
           "MediatR": "12.4.1",
@@ -122,6 +123,11 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "EventBus.Messages/1.0.0": {
+        "runtime": {
+          "EventBus.Messages.dll": {}
+        }
+      },
       "Ordering.Core/1.0.0": {
         "runtime": {
           "Ordering.Core.dll": {}
@@ -211,6 +217,11 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "EventBus.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Ordering.Core/1.0.0": {
       "type": "project",

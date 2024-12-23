@@ -13,3 +13,5 @@ C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Or
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.Application\obj\Debug\net8.0\refint\Ordering.Application.dll
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.pdb
 C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.Application\obj\Debug\net8.0\ref\Ordering.Application.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.Application\bin\Debug\net8.0\EventBus.Messages.dll
+C:\Nishit\Asp net core Microservice\eShopModernization\MicroServices\Ordering\Ordering.Application\bin\Debug\net8.0\EventBus.Messages.pdb

@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Basket.Core": "1.0.0",
+          "EventBus.Messages": "1.0.0",
           "Grpc.AspNetCore": "2.64.0",
           "MediatR": "12.4.1"
         },
@@ -176,6 +177,11 @@
         "runtime": {
           "Basket.Core.dll": {}
         }
+      },
+      "EventBus.Messages/1.0.0": {
+        "runtime": {
+          "EventBus.Messages.dll": {}
+        }
       }
     }
   },
@@ -333,6 +339,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "Basket.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventBus.Messages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
